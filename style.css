@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@500&family=Kalnia:wght@200&family=Nunito:wght@300&family=Oswald&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 46); 
+     color: white; 
+ font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18, 18, 62);
+    
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.4rem;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+} 
+
+ nav ul li a:hover{
+    color:rgb(58, 58, 184);
+    font-size: 1.6rem;
+    
+
+} 
+
+ .left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 75px 0;
+    align-items: center;
+
+}
+
+.firstsection > div {
+    width: 30%;
+    color: white;
+
+
+} 
+
+ .leftsection {
+    font-size: 2rem;
+
+
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(125, 48, 197);
+}
+
+.secondsection{
+    max-width: 80vw;
+}
+#element{
+    color: rgb(125, 48, 197);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection h1{
+    font-size: 1.6rem;
+}
+.text-gray{
+    color: gray;
+}
+.secondsection .box{
+    background: white;
+    width: 60vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.vertical-title{
+    position: relative;
+    top: 90px;
+    width: 150px;
+
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px 122px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+
+footer{
+    background-color: rgb(46, 46, 96);
+    
+    
+   
+} 
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftsection .buttons{
+    padding: 23px;
+}

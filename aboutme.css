@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@500&family=Kalnia:wght@200&family=Nunito:wght@300&family=Oswald&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 46); 
+}
+.heading{
+    height: 50px;
+    color: white;
+    background-color: rgb(37, 37, 107);
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+
+}
+.image{
+    height: 320px;
+    width: 320px;
+    background-color: rgb(18, 18, 62);
+    margin: 20px;
+    text-align: center;
+    
+    border-radius: 50%;
+    box-sizing: border-box;
+
+
+   
+}
+#Rachi_Image{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.information{
+    height: 200px;
+    width: 600px;
+  
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+li{
+    list-style: none;
+}
+ul{
+    line-height: 40px;
+}
+li{
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+
+}
+span{
+    font-size: 25px;
+    color: blueviolet;
+
+}
+b{
+    color: white;
+}
+para,p{
+    height: 200px;
+    width: 900px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    margin: auto;
+
+
+}
+
